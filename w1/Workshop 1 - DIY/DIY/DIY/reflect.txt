@@ -1,0 +1,10 @@
+Name:        Amirhossein Sabagh
+Student#:    152956199
+Email:       asabagh@myseneca.ca
+Date:        2020-09-27
+
+
+I consider this week a pleasant kick-off for learning C++ language; I transferred my knowledge of C language programming and tried to use it with the C++ syntax. The good thing about this week and the first workshop was that I saw it in action how C++ outweighs C language and how it reduces the effort and stress of the programmer. 
+C++ language is type-safe and I found about that when my program happened to have only one run-time error and all the other errors I had were shown to me when compilation; that's a great thing about C++ as when in the compilation, you see a brief explanation of why this error has occurred and where, in this program, does it happen.
+The next thing I learned this week was how to modularize the program and where does this piece of code belong to. The Lab part of this workshop helped me to learn the placements of prototypes and the body of the functions, but I saw the real effect and improvement when trying to write the codes in the right place without any help in the DIY part of the workshop. 
+The last things to mention that I learned this week are the namespaces and the way they are applied to the code, compilation safeguards, and the strstr function to find the occurrence of a substring and a string. 
