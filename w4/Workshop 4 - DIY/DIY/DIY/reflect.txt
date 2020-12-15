@@ -1,0 +1,6 @@
+Name:        Amirhossein Sabagh
+Student#:    152956199
+Email:       asabagh@myseneca.ca
+Date:        2020-10-19
+
+This week, I learned about the use of constructors and how to implement them. We use the constructors to initialize the data members of the objects at creation time. By doing this for a class' private data members, we make sure that the situation never happens in which we attempt to use data that is not yet defined. The default constructor is for setting the data members to a safe empty state; we can also overload our default constructor and receive values from the user, passed as the arguments of the overloaded constructor. In workshop 4, I set the tag name pointer to null and the extension number to a safe negative state. In cases that the user wants to enter the name and extension themselves, I overloaded the default constructor and added two parameters to receive those. The workshop instruction indicated to overload the constructor one more time in case the user only passes a name and not an extension number; instead of doing that, I added a default value of -1 to the extension parameter, so if the user doesn't prompt anything for the extension, it will automatically ignore that parameter and we will have a constructor with a char parameter.

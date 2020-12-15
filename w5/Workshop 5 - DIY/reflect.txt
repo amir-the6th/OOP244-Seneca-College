@@ -1,0 +1,10 @@
+Name        Amirhossein Sabagh
+Student#    152956199
+Email       asabagh@myseneca.ca
+Date        2020-10-28
+
+This week, I learned about member operators and different types of them like binary and unary operators, the reason behind using them, type conversion operators, cast operators, and helper functions. By overloading a member operator, we give meaning to that operation; it increases the readability of the code and avoids the need to define them in different namespaces. When in our code, the operator and the operand's (or operands') types of an operation match with the one we used for our overload, it will call the function and the statements are executed accordingly. We could have done this with member functions also, but that would take much more time, and it would complicate and mess the code.
+Binary member operators take two operands; I mostly used them to assign something to an object or calculate the balance, for instance. Unary member operators require one operand; in this workshop, I used them to validate a state and return a boolean value.
+I employed type conversion operators to convert fundamental data types and also to check the validity of an object. When somewhere in my code, I wanted to check if the object Mark is valid (if the mark is between 0 and 100), I used if(this) and that would call the conversion operator bool().
+I made use of cast operators by defining a single-argument constructor; when the testing cpp file creates a new object called 'n' and declares it as n(25), the program calls the constructor I defined and sets the value of the mark. 
+There are times that we can help a class outside the scope of the declaration of that class. Helper functions are global functions that we use when they do not necessarily need to be contained within the class yet are useful to the class. When declaring helper functions, we need at least one parameter of the class type. In the DIY section of the workshop, we added a single value to our Mark object and evaluated a copy of the new object. 
